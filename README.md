@@ -12,13 +12,14 @@ Features:
 
 Installation:
 1. Clone the repository or download the files.
-git clone https://github.com/your-username/close-tabs-extension.git
+```shell
+git clone https://github.com/roman-right/CloseTabs.git
+```
+2. Open Chrome and navigate to `chrome://extensions/`.
 
-1. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" by clicking the toggle switch in the top right corner.
 
-2. Enable "Developer mode" by clicking the toggle switch in the top right corner.
-
-3. Click the "Load unpacked" button and select the directory where your extension files are located.
+4. Click the "Load unpacked" button and select the directory where your extension files are located.
 
 Usage:
 - Open several tabs in Chrome.
