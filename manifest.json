@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Close Tabs Extension",
+    "version": "1.0",
+    "description": "Close tabs to the right or left with keyboard shortcuts.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "close-tabs-right": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Right"
+        },
+        "description": "Close all tabs to the right"
+      },
+      "close-tabs-left": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Left"
+        },
+        "description": "Close all tabs to the left"
+      }
+    }
+  }
+  
